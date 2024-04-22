@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/trpatidar/trnode/issues"
   },
-  "homepage": "https://github.com/trpatidar/trnode#readme"
+  "homepage": "https://github.com/trpatidar/trnode#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

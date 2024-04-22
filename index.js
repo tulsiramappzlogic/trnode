@@ -7,4 +7,4 @@
 
 
 const fs = require('fs');
-fs.writeFileSync('a.txt','code step by step')
+fs.writeFileSync('a1.txt','code step by step')
