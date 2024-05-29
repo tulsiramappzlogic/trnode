@@ -1,7 +1,7 @@
 {
   "name": "mynode",
   "version": "1.0.0",
-  "description": "",
+  "description": "my trp node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/trpatidar/trnode#readme",
   "dependencies": {
+    "chalk": "^5.3.0",
     "express": "^4.19.2"
   }
 }

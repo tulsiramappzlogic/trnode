@@ -7,4 +7,7 @@
 
 
 const fs = require('fs');
-fs.writeFileSync('a1.txt','code step by step')
+// fs.writeFileSync('a1.txt','code step by step')
+
+const data = fs.readFileSync('a1.txt','utf8')
+console.log(data)
