@@ -1,7 +1,3 @@
-const chalk = require("chalk");
-const os = require("os");
+import chalk from 'chalk';
 
-console.log(os.arch());
-console.log(os.platform());
-const free = os.freemem()
-console.log(`${free/1024/1024/1024}`)
+console.log(chalk.redBright('Hello world! okay now'));
